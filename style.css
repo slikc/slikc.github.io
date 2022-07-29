@@ -68,7 +68,7 @@ p {
 .links a {
     color: rgb(255, 255, 255);
     letter-spacing: 2px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     text-decoration: none;
 }
 
