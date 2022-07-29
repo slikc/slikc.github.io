@@ -1,0 +1,159 @@
+body,
+html {
+    background-color: #272727;
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins';
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+}
+
+
+
+.full-height {
+    min-height: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-fill {
+    flex: 1;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.title {
+    font-size: 90px;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.links {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .links {
+        display: flex;
+    }
+
+    /* Left margin accounts for the size of the separator */
+    .links li:not(:last-child)::after {
+        margin-left: 10px;
+        margin-right: 16px;
+        content: " / ";
+    }
+}
+
+.links a {
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+.menu {
+    padding: 0;
+    list-style-type: none;
+    text-align: flex-start;
+}
+
+@media screen and (min-width: 600px) {
+    .menu {
+        display: flex;
+    }
+
+    /* Left margin accounts for the size of the separator */
+    .menu li:not(:last-child)::after {
+        margin-left: 10px;
+        margin-right: 20px;
+        content: " | ";
+    }
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .underline{
+    position: relative;
+  }
+  
+  .underline::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ab0808;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+  
+  @media (hover: hover) and (pointer: fine) {
+    .underline:hover::before{
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
+  }
+
+
+  .title {
+    /* RESET */
+    text-decoration: none;
+    line-height: 1;
+    
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    padding: 5px 5px;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    vertical-align: bottom;
+    transition: color .3s ease-out;
+ }
+ 
+ .title::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transform: translateY(calc(100% - 2px));
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(60deg, #f85555 0%, #9ce5bd 100%);
+    transition: transform .25s ease-out;
+ }
+ 
+ .title:hover { 
+    color: #fff; 
+ }
+ .title:hover::before {
+    transform: translateY(0);
+    transition: transform .25s ease-out;
+ }
