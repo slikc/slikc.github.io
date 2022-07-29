@@ -74,26 +74,25 @@ p {
 
 
 
-.menu {
+.links {
     padding: 0;
     list-style-type: none;
-    text-align: flex-start;
 }
 
 @media screen and (min-width: 600px) {
-    .menu {
+    .links {
         display: flex;
     }
 
     /* Left margin accounts for the size of the separator */
-    .menu li:not(:last-child)::after {
+    .links li:not(:last-child)::after {
         margin-left: 10px;
         margin-right: 20px;
         content: " | ";
     }
 }
 
-.menu a{
+.links a{
     text-decoration: none;
     color: #ffffff;
   }
