@@ -61,12 +61,25 @@ body {
 }
 
 .username { 
+  display:inline-block;
   color:white;
   margin-left:38.3%;
   position:relative;
   top:-570px;
   font-family:'Poppins', sans-serif;
 }
+
+.tag {
+  display:inline-block;
+  color:#c0c0c0;
+  margin-left:0.1%;
+  position:relative;
+  top:-571px;
+  font-family:'Poppins', sans-serif;
+  font-size:26px;
+
+}
+
 
 .line {
   background-color:#595959;
