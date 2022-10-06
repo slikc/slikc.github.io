@@ -54,7 +54,7 @@ body {
   border-radius: 50%;
   width:100px;
   height:100px;
-  margin-left:39%;
+  margin-left:38.3%;
   position:relative;
   top:-555px;
 
@@ -64,7 +64,7 @@ body {
   color:white;
   margin-left:38.3%;
   position:relative;
-  top:-560px;
+  top:-570px;
   font-family:'Poppins', sans-serif;
 }
 
@@ -74,23 +74,24 @@ body {
   height:1px;
   margin-left:38.3%;
   position:relative;
-  top:-560px;
+  top:-570px;
 
 }
 
 .about {
   margin-left:38.3%;
   position:relative;
-  top:-560px;
+  top:-570px;
   color:#C8C8C8;
   font-size:17px;
   font-family:'Poppins', sans-serif;
 }
 
 .desc {
+  width:330px;
   margin-left:38.3%;
   position:relative;
-  top:-560px;
+  top:-570px;
   color:#C8C8C8;
   font-family:'Calibri', sans-serif;
 }
