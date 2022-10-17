@@ -431,10 +431,10 @@ transform: translate(95vw,90vh);
   width:350px;
   height:450px;
   border-radius:32px;
-  margin-left:37%;
+  margin-left:37vw;
   z-index:1000;
   position:absolute;
-  top:150px;
+  top:20vh;
   z-index:-1;
 
 }
