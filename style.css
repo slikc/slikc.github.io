@@ -132,27 +132,27 @@ body {
 
 .profile-card__social a.twitter {
     background:linear-gradient(45deg, #1DA1F2,#0e71c8);
-    box-shadow:0 4px 30px rgba(19,127,212,0.7);
+    box-shadow:0 10px 30px rgba(19, 160, 212, 0.7);
 }
 
 .profile-card__social a.youtube {
     background:linear-gradient(45deg, #FF0000, #cc6b6b);
-    box-shadow:0 4px 30px rgba(162, 32, 32, 0.7);
+    box-shadow:0 10px 30px rgba(179, 77, 77, 0.7);
 }
 
 .profile-card__social a.spotify {
     background:linear-gradient(45deg, #1DB954, #0a9c3d);
-    box-shadow:0 4px 30px rgba(52, 158, 26, 0.7);
+    box-shadow:0 10px 30px rgba(52, 158, 26, 0.7);
 }
 
 .profile-card__social a.github {
     background:linear-gradient(45deg, #333333, #626b73);
-    box-shadow:0 4px 30px rgba(63, 65, 67, 0.6);
+    box-shadow:0 10px 30px rgba(63, 65, 67, 0.6);
 } 
 
 .profile-card__social a.steam {
     background:linear-gradient(45deg, #1b2838, #2f82b3);
-    box-shadow:0 4px 30px rgba(17, 54, 90, 0.6);
+    box-shadow:0 10px 30px rgba(17, 54, 90, 0.6);
 } 
 
 .back-video {
